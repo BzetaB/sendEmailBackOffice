@@ -3,8 +3,8 @@ import { Button } from "./Button"
 
 export const Navbar = () => {
     return (
-        <div className="w-full bg-green-700 px-10">
-            <div className="max-w-md md:max-w-7xl lg:max-w-5xl mx-auto flex flex-row justify-between">
+        <div className="bg-green-700">
+            <div className="max-w-6xl px-8 mx-auto flex flex-row justify-between">
                 <Link to="/">
                     <img
                         className="max-h-12 md:max-h-15"

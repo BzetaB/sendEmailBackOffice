@@ -7,8 +7,8 @@ import { Link } from "react-router-dom"
 export const MailSendingFilter = () => {
 
     return (
-        <form>
-            <div className="max-w-5xl gap-4 grid grid-cols-2 grid-rows-7 md:grid-rows-4 md:grid-cols-4 lg:grid-cols-5 lg:grid-rows-3">
+        <form className="bg-white py-4 px-6 shadow-md rounded-md">
+            <div className="gap-4 grid grid-cols-2 grid-rows-7 md:grid-rows-4 md:grid-cols-4 lg:grid-cols-5 lg:grid-rows-3">
                 <div className="flex flex-col gap-1 text-sm md:text-base">
                     <label className="font-semibold">Plan de Estudios</label>
                     <Select

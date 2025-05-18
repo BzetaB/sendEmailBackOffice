@@ -2,7 +2,7 @@ import { cva, type VariantProps } from "class-variance-authority"
 import type { FC, InputHTMLAttributes } from "react"
 
 const inputVariants = cva(
-    "w-full rounded-md py-1 px-2 bg-white border border-gray-500",
+    "w-full rounded-md py-1 px-2 shadow-sm bg-white border border-gray-500",
     {
         variants: {
             borderVariant:{
