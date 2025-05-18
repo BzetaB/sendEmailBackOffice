@@ -22,19 +22,11 @@ const buttonVariants = cva(
                 xl: "rounded-xl",
                 pill: "rounded-full",
             },
-            sizeVariant: {
-                compact: "px-4 py-1",
-                md: "px-6 py-2",
-                lg: "px-8 py-2",
-                xl: "px-10 py-2",
-                full: "w-full py-2",
-            }
         },
         defaultVariants: {
             colorVariant: "default",
             textColorVariant: "dafault",
             cornerVariant: "default",
-            sizeVariant: "compact",
         }
     }
 )
@@ -46,7 +38,6 @@ export const Button: FC<ButtonProps> = ({
     colorVariant,
     textColorVariant,
     cornerVariant,
-    sizeVariant,
     ...props
 }) => {
     return (
@@ -58,7 +49,6 @@ export const Button: FC<ButtonProps> = ({
                     colorVariant,
                     textColorVariant,
                     cornerVariant,
-                    sizeVariant,
                 })
             }>
         </button>

@@ -1,0 +1,88 @@
+{
+    "Llamada": [
+        {
+            "id": 1,
+            "plan": "Sí"
+        },
+        {
+            "id": 2,
+            "plan": "No"
+        }
+    ],
+    "Encuestado": [
+        {
+            "id": 1,
+            "plan": "Egresado"
+        },
+        {
+            "id": 2,
+            "plan": "Empleador"
+        }
+    ],
+    "TipoEnvio": [
+        {
+            "id": 1,
+            "plan": "Nuevos"
+        },
+        {
+            "id": 2,
+            "plan": "Enviados"
+        },
+        {
+            "id": 3,
+            "plan": "Respondidos"
+        }
+    ],
+    "planEstudios": [
+        {
+            "id": 1,
+            "plan": 2015
+        },
+        {
+            "id": 2,
+            "plan": 2018
+        },
+        {
+            "id": 3,
+            "plan": 2019
+        }
+    ],
+    "Facultad": [
+        {
+            "id": 1,
+            "plan": "Empresas"
+        },
+        {
+            "id": 2,
+            "plan": "Computacion"
+        },
+        {
+            "id": 3,
+            "plan": "Ingenieria"
+        }
+    ],
+    "SedeEgresado": [
+        {
+            "id": 1,
+            "plan": "Lima"
+        },
+        {
+            "id": 2,
+            "plan": "Arequipa"
+        },
+        {
+            "id": 3,
+            "plan": "Trujillo"
+        }
+    ],
+    "Modalidad": [
+        {
+            "id": 1,
+            "plan": "Presencial"
+        },
+        {
+            "id": 2,
+            "plan": "Virtual"
+        }
+    ]
+}
